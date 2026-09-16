@@ -80,7 +80,7 @@ python experiments/reproduce_all.py --check
 python experiments/reproduce_all.py --plan
 ```
 
-## GSSC and incentive experiment
+## incentive experiment
 
 `experiments/revised_incentive.py` is the Fig. 5 revised-incentive Monte Carlo
 experiment. It writes numeric CSV and JSON observations under
