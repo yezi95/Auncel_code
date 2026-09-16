@@ -2,9 +2,7 @@
 
 This directory is the package for the Auncel. The executable protocol runtime is in
 `src/`; `crypto/pvss.py` contains the PYPBC pairing operations.
-The package contains source code, configuration, contract code, and input data
-only. It does not contain historical results, logs, virtual environments,
-editor state, compiler caches, or plotting code.
+The package contains source code, configuration, contract code, and input data. 
 
 ## Environment
 
