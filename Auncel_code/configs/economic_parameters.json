@@ -1,0 +1,18 @@
+{
+  "representative_statistic": "median_low gasUsed across successful arbitration-participation calls",
+  "gas_used": 150810,
+  "gas_price_wei": 2000000000,
+  "C_gas_wei": 301620000000000,
+  "gas_cost_wei": 301620000000000,
+  "gas_cost_parameter": "C_gas_wei is measured gasUsed * recorded gas price",
+  "request_bond_multiplier": 2,
+  "request_bond_wei": 603240000000000,
+  "arbiter_bond_multiplier": 8,
+  "arbiter_bond_wei": 2412960000000000,
+  "minimum_arbitration_reward_multiplier": 1.5,
+  "minimum_arbitration_reward_wei": 452430000000000,
+  "minimum_reward_definition": "R0 per honest winning arbitrator; total base reward reserved is R0 * |H|",
+  "honest_payoff_formula": "R0 + Phi_pool / |H| - C_gas",
+  "malicious_payoff_formula": "(1-p_d) * B_ext - p_d * Phi_i - C_gas",
+  "parameter_origin": "Fixed economic configuration; historical output files are not runtime inputs."
+}

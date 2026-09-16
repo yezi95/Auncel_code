@@ -1,0 +1,40 @@
+{
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "transactions_per_run": 500,
+  "scheme_repetitions": {
+    "Auncel": 10,
+    "DCchain": 10
+  },
+  "offered_tps": [
+    200
+  ],
+  "shard_counts": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "fixed_cross_shard_ratio": 0.4,
+  "ratio_sweep_shards": 4,
+  "cross_shard_ratios": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ]
+}
