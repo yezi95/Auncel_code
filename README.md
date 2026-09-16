@@ -1,7 +1,7 @@
 # Reproducible experiments
 
 This directory is the package for the Auncel. The executable protocol runtime is in
-`src/`; `crypto/pvss.py` contains the PYPBC pairing operations.
+`src/`; smart contract `contracts/GSSC.sol` ; `crypto/pvss.py` contains the PYPBC pairing operations.
 The package contains source code, configuration, contract code, and input data. 
 
 ## Environment
