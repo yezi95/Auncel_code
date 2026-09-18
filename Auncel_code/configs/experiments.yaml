@@ -16,7 +16,7 @@
     "Auncel": 10,
     "DCchain": 10
   },
-  "offered_tps": [
+  "offered_tps per shard": [
     200
   ],
   "shard_counts": [
